@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import UserIcon from "../assets/user-icon.png";
 import TitleImg from "../assets/title-placeholder-img.svg";
 import Memo from "../assets/memo.svg";
-import { InputField } from "./ui/inputField";
+import { InputField } from "./ui/inputField.jsx";
 // import { Calendar } from "lucide-react";
 import Calendar from "../assets/calendar.svg";
 import createTaskAPI from "./api/CreateTask";
