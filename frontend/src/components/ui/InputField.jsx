@@ -1,7 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import { CustomDatePicker } from "./CustomDatePicker";
-export const InputField = ({
+const InputField = ({
   label,
   name,
   type,
@@ -46,3 +46,5 @@ export const InputField = ({
     </div>
   );
 };
+
+export default InputField;
