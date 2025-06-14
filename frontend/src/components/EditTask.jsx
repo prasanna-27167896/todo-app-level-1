@@ -1,6 +1,6 @@
 import React from "react";
 import EditTaskImg from "../assets/edit-task-logo.svg";
-import { InputField } from "./ui/inputField.jsx";
+import { InputField } from "./ui/InputField";
 import { useState } from "react";
 import { useCallback } from "react";
 import clsx from "clsx";
